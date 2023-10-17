@@ -6,3 +6,13 @@
   max-width: 500px;
   margin-left: 50px;
 }
+
+.links{
+  display: flex;
+}
+#bio{
+  
+  background-color: beige;
+  padding-left: 10px;
+  margin: 50px;
+}
