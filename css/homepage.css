@@ -10,9 +10,14 @@
 .links{
   display: flex;
 }
-#bio{
+.bio{
   
   background-color: beige;
   padding-left: 10px;
-  margin: 50px;
+  margin: 20px;
+}
+
+#portrait{
+  width: 500px;
+  float: right;
 }
