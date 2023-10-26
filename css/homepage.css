@@ -2,7 +2,7 @@
 
 .cat-photo {
   vertical-align: middle;
-  margin: 25px;
+  margin: 10px;
   max-width: 500px;
   margin-left: 50px;
 }
@@ -12,9 +12,9 @@
 }
 .bio{
   
-  background-color: beige;
+  background-color: #e8abab;
   padding-left: 10px;
-  margin: 20px;
+  margin: 10px;
 }
 
 #portrait{
