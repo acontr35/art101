@@ -1,6 +1,6 @@
-// index.js - Complete Lab 7: functions
+// index.js - Complete Lab 8: Anon Functions and Callbacks 
 // Author: Adrian Contreras
-// Date: 11/5/2022
+// Date: 11/5/2023
 
 // Constants
 // array of numbers
