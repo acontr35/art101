@@ -8,9 +8,26 @@
     background-color: #DDD8C4;
   }
 
+  #challenge {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
   photo{
     width: 500px;
     display: flex;
     float: right;
   
   }
+
+
+
+.special{
+  padding: 10px;
+  font: color white;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #1a671a;
+}

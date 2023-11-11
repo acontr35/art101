@@ -4,8 +4,12 @@
 
 // Constants
 
-
-
+$("#challenge").append("<button id='button-challenge'>Don't press</button>");
+$("#problems").append("<button id='button-challenge'>Please no</button>");
+$("#reflection").append("<button id='button-challenge'>WAIT WAIT</button>");
 // Functions
-
+// add a click listener to the challenge button
+$("button-challenge").click(function(){
+  $("#challenge").toggleClass("special");
+});
 
