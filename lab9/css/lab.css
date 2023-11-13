@@ -1,14 +1,21 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+  .problems {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
 
-  #challenge {
+  .reflection {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  .challenge {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
@@ -22,12 +29,27 @@
   
   }
 
+.different {
+  background-color: coral;
+  font-family: cursive;
+  border-width: 20px;
+  border-color: blue;
+  font-variant-caps: red;
+}
+
+.party {
+background-color: magenta;
+font-family: fantasy;
+border-color: blueviolet;
+border-width: 25px;
+}
 
 
 .special{
   padding: 10px;
-  font: color white;
+  font: color rgb(250, 250, 250);
   margin-bottom: 10px;
-  border: solid 1px #888;
+  border: solid 1px #eae42f;
   background-color: #1a671a;
+  border-width: 15px;
 }

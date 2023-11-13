@@ -7,17 +7,32 @@
   margin-left: 50px;
 }
 
+.intro {
+  background-color: #deafd2;
+  vertical-align: middle;
+  margin: 10px;
+  max-width: 500px;
+  margin-left: 10px;
+}
+
 .links{
   display: flex;
 }
-.bio{
-  
-  background-color: #e8abab;
+
+.bio{  
+  background-color: #deafd2;
   padding-left: 10px;
+  max-width: 500px;
   margin: 10px;
 }
 
 #portrait{
   width: 500px;
   float: right;
+}
+
+#assignments {
+  background-color: #deafd2;
+  max-width: 500px;
+margin-left: 10px;
 }
