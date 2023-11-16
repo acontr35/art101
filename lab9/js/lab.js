@@ -4,7 +4,7 @@
 
 // Constants
 
-$(".challenge").append("<button id='button-challenge'>Don't press</button>");
+$(".challenge").append("<button id='button-challenge'> press</button>");
 $(".problems").append("<button id='button-problems'>Please no</button>");
 $(".reflection").append("<button id='button-reflection'>WAIT WAIT</button>");
 // Functions
