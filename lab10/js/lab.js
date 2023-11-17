@@ -4,15 +4,12 @@
 
 // Constants
 //click listener for button
-$("make-convo").click(function(){
-    const newText = generateRandomText();
-});
 
-$("#output").append('<div class="text"><p>' + newText + '</p></div>');
+
 
 // Functions
 function generateRandomText() {
-    const text ="me when I when you when me when like when you and then you when I but also how you then when you if you ";
+const text ="me when I when you when me when like when you and then you when I but also how you then when you if you ";
 const min = 3;
 const max = 100;
 const randLen = Math.floor(Math.random() * (max - min +1)) + min;
@@ -22,3 +19,9 @@ const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
 return text.slice(randStart, randStart + randLen);
 }
 // add a click listener to the challenge button
+$("#make-convo").click(function() { 
+const newText = generateRandomText();
+$("#output").append('<div class="text"><p>' + newText + '</p></div>');
+});
+
+
