@@ -15,7 +15,7 @@
 
 for (var index=1;index<=200;index++){
     var number = '';
-
+    var myButton = document.getElementById("submit");
     if (index%15 == 0) {
         $("#output").append("<p>fizz-buzz</p>")
     }
