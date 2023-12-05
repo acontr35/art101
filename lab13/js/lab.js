@@ -26,6 +26,7 @@ for (var index=1;index<=200;index++){
     else if (index%40 == 0) {
         $("#output").append("<p>buzz-fizz</p>")
     }
+    
     else if (index%3 == 0) {
         $("#output").append("<p>fizz</p>")
     }
