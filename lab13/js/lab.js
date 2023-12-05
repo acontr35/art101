@@ -12,7 +12,7 @@
 
 
 
-
+$("#submit").click( function () {
 for (var index=1;index<=200;index++){
     var number = '';
     var myButton = document.getElementById("submit");
@@ -39,7 +39,6 @@ for (var index=1;index<=200;index++){
         number = [...String(index)].join(''); //angela used wesbot 
         $("#output").append(`<p>${number}</p>`); //same
     }
-     
-        
 }
 
+})
