@@ -10,8 +10,6 @@
 
 // Functions
 
-
-
 $("#submit").click( function () {
 for (var index=1;index<=200;index++){
     var number = '';
