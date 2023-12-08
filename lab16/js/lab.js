@@ -17,13 +17,14 @@
         success: function(data) {
             // do stuff
             console.log(data);
+            var comicObj = data;
             var printableData = "<pre>" + JSON.stringify(data) + "</pre>";
             console.log(printableData);
-            $("#output").append("<p>" + data.month + comicObj.title);
-            $("#output").append("<p>" + data.month + data.day);
-            $("#output").append("<p>" + data.safe_title);
-            $("#output").append("<p>" + data.transcript);
-            $("#output").append("<p>" + data.alt);
+            $("#output").append("<p>" + comicObj.month + comicObj.title);
+            $("#output").append("<p>" + comicObj.month + comicObj.day);
+            $("#output").append("<p>" + comicObj.safe_title);
+            $("#output").append("<p>" + comicObj.transcript);
+            $("#output").append("<p>" + comicObj.alt);
             
           
         },
